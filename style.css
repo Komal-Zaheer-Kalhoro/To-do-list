@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    min-height: 100vh;
+    width:100%;
+    background:linear-gradient(135deg ,#4c0e4e, #05203f);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.image{
+    /* width: 20px; */
+    /* opacity: 30%; */
+    background-color: transparent;
+    /* height: 100%; */
+    border-radius: 20px;
+    width: 50px;
+    margin-left: 5px;
+    padding: 0;
+    color: white;
+    border-color: aliceblue;
+    border: solid;
+    border-width: 1px;
+}
+
+button{
+    width: 50px;
+    /* opacity: 30%; */
+    background-color: transparent;
+    height: 50px;
+    font-size: large;
+    border-radius: 20px;
+    align-self: center;
+    margin-left: 5px;
+    padding: 0;
+    color: white;
+    border-color: aliceblue;
+    border: solid;
+    border-width: 1px;
+    margin-left: 5px;
+}
+
+
+
+.app-by-info{
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    margin-top: 20px;
+}
+
+.green-checkmark {
+    color: green; /* Sets the color of the checkmark */
+    font-size: 24px; /* Adjust size as needed */
+}
+
+.input{
+    height: 50px;
+    /* border-radius: 20px; */
+    width: 90%;
+    background-color: transparent;
+    border: solid;
+    border-width: 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+    /* border-style: 1px solid; */
+    /* opacity: 30%; */
+    font-size: large;
+    padding-left: 15px;
+    color: rgb(252, 252, 252);
+    word-wrap: break-word;
+    /* color: rgba(26, 23, 23, 0.877); */
+}
+
+.added-items{
+    /* margin-left: 3px; */
+    /* padding-left: 20px; */
+    background: linear-gradient(135deg, #4c0e4e, rgb(16, 28, 61));
+    /* opacity: 60%; */
+    margin-top: 35px;
+    margin-bottom: 25px;
+    line-height: 30px;
+    font-size: larger;
+    color: rgb(230, 225, 225);
+    /* width: 95%; */
+    /* border: solid; */
+    /* width: 100%; */
+    /* height: 70%; */
+}
+
+
+li{
+    border: solid;
+    border-radius: 15px;
+    border-width: 1px;
+    padding-top: 15px;
+    /* border-top: none; */
+    border-right: none;
+    border-left: none;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    padding: 5px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 90%; */
+}
+
+.add-bar{
+    display: flex;
+    /* margin-top: 10px; */
+    margin-top: 30px;
+}
+
+.background-opaque{
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: aliceblue;
+    width: 50%;
+    height: fit-content;    
+    padding: 10px;
+    padding-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+}
+
+@media only screen and (max-width: 990px) {
+    /* For mobile phones: */
+    .background-opaque{
+      width: 100%;
+      border: none;
+      /* background-color: #05203f; */
+    }
+
+    .image{
+        /* width: 20px; */
+        /* opacity: 30%; */
+        background-color: transparent;
+        /* height: 100%; */
+        border-radius: 20px;
+        width: 50px;
+        margin-left: 2px;
+        padding: 0;
+        color: white;
+        border-color: aliceblue;
+        border: solid;
+        border-width: 1px;
+        font-size: smaller;
+    }
+
+    button{
+        width: 50px;
+        /* opacity: 30%; */
+        background-color: transparent;
+        height: 50px;
+        font-size: large;
+        border-radius: 20px;
+        align-self: center;
+        margin-left: 5px;
+        padding: 0;
+        color: white;
+        border-color: aliceblue;
+        border: solid;
+        border-width: 1px;
+        margin-left: 5px;
+    }
+
+  }
